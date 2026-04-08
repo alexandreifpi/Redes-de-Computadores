@@ -166,4 +166,98 @@
 - Custo mais elevado.
 - Configuração mais difícil.
 
+## Roteador
+
+- Equipamento que serve para conectar diferentes redes.
+- Dispositivo que opera na **Camada de Rede**.
+- Usado para conectar diferentes redes, bem como traçar as rotas através dos algoritmos de roteamento.
+- Alguns modelos de roteadores também incluem funções de Firewall.
+- No uso doméstico, o roteador é o equipamento que conecta sua residência ao seu provedor de internet.
+
+### Vantagens 
+
+- Segurança: Estão cada vez mais equipados com "firewalls".
+- Acessibilidade: Permite que as redes se comuniquem entre si.
+
+### Desvantagens
+
+- Complexidade de configuração.
+
+### Funcionamento Básico do Roteador
+
+- Os computadores posseum um Default Gateway (Saída Padrão).
+- O Default Gateway indica qual endereço IP de saída da rede (**IP do roteador da rede**).
+- Quando o computador remetente não encontra o computador de destino na mesma rede, ele envia os dados para o roteador da rede.
+- Se o roteador não encontrar o computador destino, ele envia os dados para seu default gateway, até que encontre a máquina destino.
+
+### Analisando o Roteamento na Prática
+
+- Para analisar o roteamento na prática, podemos utilizar o comando **_tracert_** ou _**traceroute**_.
+
+#### _**tracert**_
+
+- Comando utilizado no **_Windows_** para rastrear a rota que os pacotes percorrem até um destino na rede, geralmente um site ou outro computador.
+
+```bash
+tracert www.google.com
+```
+
+#### **_traceroute_**
+
+- Comando utilizado no **_Linux_** para rastrear a rota que os pacotes percorrem até um destino na rede, geralmente um site ou outro computador.
+
+```bash
+traceroute www.google.com
+```
+
+```bash
+Resultado da execução do comando traceroute www.google.com
+
+~$ traceroute www.google.com
+traceroute to www.google.com (142.251.154.119), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  2.120 ms  14.431 ms  14.535 ms
+ 2  100.64.0.1 (100.64.0.1)  43.055 ms  43.029 ms  43.004 ms
+ 3  172.27.100.185 (172.27.100.185)  43.510 ms  43.487 ms  43.462 ms
+ 4  172.27.100.101 (172.27.100.101)  43.465 ms  43.426 ms  43.401 ms
+ 5  10.22.1.37 (10.22.1.37)  43.319 ms  43.295 ms  43.271 ms
+ 6  10.55.1.185 (10.55.1.185)  43.203 ms  6.608 ms  19.899 ms
+ 7  * * *
+ 8  10.55.0.90 (10.55.0.90)  19.812 ms  19.793 ms  19.773 ms
+ 9  10.55.1.65 (10.55.1.65)  27.241 ms  27.222 ms  27.203 ms
+10  10.55.3.90 (10.55.3.90)  52.176 ms  52.158 ms  56.200 ms
+11  173.194.122.156 (173.194.122.156)  54.681 ms  56.494 ms  57.678 ms
+12  142.251.154.119 (142.251.154.119)  42.404 ms  42.337 ms  43.952 ms
+```
+
+```bash
+traceroute www.ifpi.edu.br
+
+traceroute to www.ifpi.edu.br (66.22.76.194), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  1.690 ms  13.871 ms  13.845 ms
+ 2  100.64.0.1 (100.64.0.1)  15.408 ms  15.384 ms  15.359 ms
+ 3  172.27.100.181 (172.27.100.181)  15.769 ms  15.745 ms  15.721 ms
+ 4  172.27.100.101 (172.27.100.101)  15.755 ms  15.821 ms  15.798 ms
+ 5  10.22.1.37 (10.22.1.37)  19.752 ms  19.729 ms  19.705 ms
+ 6  10.55.1.185 (10.55.1.185)  19.649 ms  6.627 ms  20.845 ms
+ 7  * * *
+ 8  10.55.1.1 (10.55.1.1)  20.793 ms  20.775 ms  20.757 ms
+ 9  10.55.3.118 (10.55.3.118)  21.028 ms  21.009 ms  22.397 ms
+10  10.55.10.190 (10.55.10.190)  30.156 ms  30.302 ms  30.491 ms
+11  10.55.3.246 (10.55.3.246)  30.159 ms  30.294 ms *
+12  198.18.44.5 (198.18.44.5)  16.950 ms  16.871 ms  16.846 ms
+13  ae101.0.edge1.for1.as7195.net (200.25.51.51)  20.342 ms ae1185.0.edge7.gru1.as7195.net (200.25.51.227)  60.438 ms ae101.0.edge1.for1.as7195.net (200.25.51.51)  21.451 ms
+14  as15830.saopaulo.sp.ix.br (187.16.208.139)  62.040 ms  57.366 ms  60.643 ms
+15  131.100.112.190 (131.100.112.190)  63.167 ms  65.963 ms as15830.saopaulo.sp.ix.br (187.16.208.139)  61.932 ms
+16  155.204.216.22 (155.204.216.22)  59.695 ms  62.412 ms  62.890 ms
+17  * * 155.204.216.22 (155.204.216.22)  61.269 ms
+18  * 172.18.50.113 (172.18.50.113)  59.295 ms 172.18.50.213 (172.18.50.213)  59.389 ms
+19  172.18.251.82 (172.18.251.82)  58.730 ms  60.886 ms  59.584 ms
+20  172.18.251.82 (172.18.251.82)  61.226 ms 66.22.76.194 (66.22.76.194)  58.422 ms  59.273 ms
+```
+
+#### Cada linha indica:
+
+- O número do salto.
+- O tempo (em milissegundos) que levou para o pacote chegar até ali.
+- O endereço IP ou nome do roteador daquele salto.
 
