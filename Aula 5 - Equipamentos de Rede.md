@@ -261,3 +261,12 @@ traceroute to www.ifpi.edu.br (66.22.76.194), 30 hops max, 60 byte packets
 - O tempo (em milissegundos) que levou para o pacote chegar até ali.
 - O endereço IP ou nome do roteador daquele salto.
 
+## Atividade
+
+1. Explique com suas palavras o que são elementos de rede e qual a sua importância em uma rede de computadores.
+2. Descreva o que são cabos UTP, destacando suas principais vantagens e desvantagens.
+3. Explique o conceito de domínio de colisão e dê um exemplo prático para facilitar o entendimento.
+4. Explique porque o Hub é um elemento de rede que pode facilitar ataques hackers.
+5. Explique como o switch funciona e por que ele é mais eficiente que o hub.
+6. Qual é a função de um roteador em uma rede? Explique também o que é default gateway.
+
