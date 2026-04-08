@@ -9,7 +9,7 @@
 
 ## Cabos de Rede
 
-### Cabo Coaxial Fino (Thinnet) – 10 Base 2
+### 1. Cabo Coaxial Fino (Thinnet) – 10 Base 2
 
 - Utilizado em redes industriais.
 - Comprimento máximo de 500 metros.
@@ -19,7 +19,7 @@
 
 <img width="363" height="197" alt="img1" src="https://github.com/user-attachments/assets/5ae0aa3f-772e-4fca-9331-e1ad53e32f24" />
 
-### Cabo Coaxial Grosso (Thick Ethernet) – 10 base 5
+### 2. Cabo Coaxial Grosso (Thick Ethernet) – 10 base 5
 
 - Um dos primeiros cabos utilizados em redes locais na topologia barramento.
 - Tamanho máximo desse cabo é 185 metros por segmento.
@@ -29,7 +29,7 @@
 
 <img width="400" height="250" alt="img2" src="https://github.com/user-attachments/assets/542e3e2a-47db-4733-99a1-a4731bd660b2" />
 
-### Cabos UTP (Unshielded Twisted Pair)
+### 3. Cabos UTP (Unshielded Twisted Pair)
 
 - Cabos de rede de par trançado sem blindagem.
 - É um meio de fio de quatro pares usado em uma variedade de redes.
@@ -52,7 +52,7 @@
 - Mais susceptível á latência, diafonia, atenuação e ruídos;
 - Distância máxima: 100 Metros.
 
-### Cabos STP (Shielded Twisted Pair)
+### 4. Cabos STP (Shielded Twisted Pair)
 
 - Possuem uma blindagem individual para cada par de cabos.
 - Melhora a tolerância do cabo com relação à distância.
@@ -108,3 +108,62 @@
 
 - Suporta taxas de transferência de dados de até 10 Gb/s.
 - Altamente imune a interferências eletromagnéticas, garantindo uma transmissão de dados mais estável e confiável.
+
+# Elementos Ativos
+
+- São os dispositivos que precisam de energia elétrica e atuam diretamente no funcionamento da rede, processando ou controlando os dados.
+
+## Conceitos Importantes
+
+### Domínio de colisão
+
+- Um domínio de colisão é o conjunto de dispositivos em uma rede onde, se dois ou mais enviarem dados ao mesmo tempo, os sinais podem colidir.
+- É como se tivéssemos uma rua com apenas uma única via e dois carros quisessem passar ao mesmo tempo.
+
+## Hub
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/3b1343a9-2c1b-4dc4-8db2-d7f328c586a8" />
+
+- Foram um dos primeiros dispositivos utilizados para interligar redes Lan's.
+- Dispositivo de rede que atua na **Camada Física**.
+- O Hub simplesmente **replica o sinal** recebido para todos os dispositivos conectados a ele.
+- Possuem um **único domínio de colisão**.
+- É como se todas as máquina estivessem enviado dados por um mesmo cabo.
+- Os modelos de Hub's se diferenciam pela quantidade de portas (8, 16, 24, 32).
+- Pode-se conectar HUBs, usando um cabo comum da porta especial **UPLINK** do Hub a uma porta comum de outro Hub.
+
+### Vantagens
+
+- Computadores podem ser adicionadas ou removidas sem parar a rede.
+- Como são mais simples, tendem a custar menos que os Switches.
+
+### Desvantagens
+
+- Lentidão na rede.
+- Pacotes enviados para todos os dispositivos.
+- Mais suscetível a ações de hackers.
+- Apenas uma comunicação por vez.
+
+## Switch
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/de83e541-e66c-4e3e-91eb-d7c4cc3c424c" />
+
+- Atualmente um dos dispositivos mais utilizados para interligar redes Lan's.
+- Dispositivo de rede que atua na **Camada de Enlace**.
+- Cada porta cria possui um domínio de colisão próprio.
+- Diferente do Hub, o switch envia pacote de dados apenas para o dispositivo de destino, reduzindo tráfego de dados e colisões na rede.
+- Ele faz isso analisando o endereço MAC do destinatário.
+
+### Vantagens 
+
+- Aumenta o desempenho da rede.
+- Comunicação entre máquinas com placas de velocidades diferentes.
+- Comunicação simultânea.
+- Segurança.
+
+### Desvantagens
+
+- Custo mais elevado.
+- Configuração mais difícil.
+
+
