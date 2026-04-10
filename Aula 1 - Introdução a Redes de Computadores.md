@@ -156,5 +156,106 @@
 > Até 56 Kbps (kilobits por segundo).
 > Custo muitas vezes baseado no tempo de uso.
 
+### DSL
 
+> Tecnologia de acesso à Internet que utiliza a linha telefônica de cobre já existente da residência.
+> 12 a 24 Mbps (download) - 1,8 a 2,5 Mbps (upload).
+
+#### Vantagens
+
+- Usa infraestrutura telefônica existente.
+- Permite usar telefone e internet simultaneamente.
+- Conexão dedicada entre casa e central.
+
+#### Desvantagens
+
+- A velocidade diminui conforme aumenta a distância até a central telefônica.
+
+### Cabo UTP/Coaxial
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/793437f1-2bce-42eb-8c30-fbd01f4591ec" />
+
+> Utiliza o mesmo cabo coaxial da TV a cabo. Muito usada por operadoras de TV por assinatura.
+
+#### Vantagens
+
+- Menores custos de instalação.
+- Infraestrutura já existente em muitas cidades.
+
+#### Desvantagens
+
+- Alta necessidade de manutenção e troca constante de equipamentos.
+- Velocidade limitada a até 100 Mbps.
+
+### Móvel
+
+<img width="500" height="109" alt="image" src="https://github.com/user-attachments/assets/6933c1d0-fbd5-4be6-abf0-a3f055847a8f" />
+
+> Fornecida por operadoras de telefonia móvel, utilizando torres celulares. O acesso pode ser feito por smartphones, modems USB ou roteadores com chip (SIM Card).
+
+#### Vantagens
+
+- Alta mobilidade.
+- Fácil de usar e instalar.
+- Boa cobertura em áreas urbanas.
+
+#### Desvantagens
+
+- Franquia de dados limitada.
+- Velocidade e latência variam bastante.
+- Pode ficar lenta em horários de pico.
+- Dependente da qualidade do sinal da operadora.
+- Necessidade de uma cobertura móvel próxima.
+
+### Satélite
+
+<img width="241" height="241" alt="image" src="https://github.com/user-attachments/assets/51a0b5b6-82b7-4c7e-844c-c04793475945" />
+
+> O sinal é transmitido entre uma antena parabólica na residência e um satélite em órbita. Muito usada em locais extremamente isolados.
+
+#### Vantagens
+
+- Cobertura ampla (inclusive áreas sem infraestrutura).
+- Independente de cabos ou torres locais.
+- Funciona em regiões remotas.
+
+#### Desvantagens
+
+Alta latência.
+Custo elevado.
+Sensível a condições climáticas.
+Desempenho inferior para jogos e videoconferências.
+
+### Fibra Ótica
+
+<img width="500" height="339" alt="image" src="https://github.com/user-attachments/assets/e43bdce6-ddce-4115-84f9-abcf3e7914a9" />
+
+> Utiliza cabos de fibra óptica, que transmitem dados por meio de pulsos de luz. É a tecnologia mais moderna e eficiente atualmente.
+
+#### Vantagens
+
+Baixo custo de manutenção.
+Alta velocidade (cerca de 68% a 70% da velocidade da luz).
+Imune a interferências eletromagnéticas.
+
+#### Desvantagens
+
+Custo de implantação mais alto.
+Não disponível em todas as regiões.
+Reparo pode ser mais complexo.
+
+## Atividades
+
+1. Explique o que é uma rede de computadores e descreva seus principais objetivos.
+2. A Internet é frequentemente confundida com uma rede comum. Explique o que é a Internet e destaque as principais diferenças entre Internet e uma rede local (LAN).
+3. Descreva a função dos seguintes elementos dentro de uma rede de computadores:
+   - Host
+   - Servidor
+   - Switch
+   - Roteador
+4. Explique como as redes de computadores e a Internet impactaram a educação, o comércio e a comunicação nas últimas décadas. Dê exemplos práticos.
+
+## Referências
+
+- https://megabyteba.com.br/as-principais-tecnologias-de-acesso-a-internet/
 
