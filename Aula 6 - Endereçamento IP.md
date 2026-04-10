@@ -181,12 +181,12 @@ Justifique.
 - h) 192.169.0.33
 
 2. Assinale (V) Verdadeiro ou (F) Falso:
-( ) O endereço 127.0.0.1 é usado para testar a conectividade da máquina com ela mesma.
-( ) Todos os endereços IP que começam com 192 são públicos.
-( ) O hostID define qual parte do IP representa a rede.
-( ) O endereço IP 172.16.0.0 é reservado para redes privadas.
+- ( ) O endereço 127.0.0.1 é usado para testar a conectividade da máquina com ela mesma.
+- ( ) Todos os endereços IP que começam com 192 são públicos.
+- ( ) O hostID define qual parte do IP representa a rede.
+- ( ) O endereço IP 172.16.0.0 é reservado para redes privadas.
 
 3. Analise o seguinte IP: 172.31.100.25/16
-a) A que classe pertence esse IP?
-b) É um IP público ou privado?
-c) Quantos hosts podem existir nessa sub-rede?
+- a) A que classe pertence esse IP?
+- b) É um IP público ou privado?
+- c) Quantos hosts podem existir nessa sub-rede?
