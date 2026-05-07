@@ -58,9 +58,10 @@
 
 ## Tabelas de roteamento em dispositivos
 
-- Todos os dispositivos IP possuem tabela de roteamento (não só roteadores).
+- Dispositivos também precisam decidir para onde enviar seus próprios pacotes.
+- Portanto, todos os dispositivos que enviam dados através do protocolo IP possuem tabela de roteamento (não só roteadores).
 - A diferença que roteadores encaminham pacotes de terceiros.
-- Os Hosts (computadores) usam a tabela apenas para enviar seus próprios pacotes.
+- Já os dispositivos usam a tabela apenas para enviar seus próprios pacotes.
 
 ## Criação das tabelas de roteamento
 
