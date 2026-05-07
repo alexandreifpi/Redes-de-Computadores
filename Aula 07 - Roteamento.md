@@ -33,7 +33,7 @@
 ## Tabela de Roteamento
 
 - Atua como um “mapa” para orientar roteadores até a rede de destino.
-- O roteador não precisa conhecer todo o caminho, apenas o próximo roteador nesse caminho.
+- Desta forma, o roteador não precisa conhecer todo o caminho, apenas o próximo roteador nesse caminho.
 
 ## Principais Campos de uma tabela de roteamento
 
