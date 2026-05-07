@@ -112,4 +112,17 @@
 - As rotas são testadas sequencialmente (de cima para baixo).
 - Assim que uma correspondência é encontrada, o processo para.
 
+## Atividades
+
+1. O que é roteamento e qual sua função em redes de computadores?
+
+2. Diferença entre comunicação:
+	a) Dentro da mesma rede.
+	b) Entre redes diferentes.
+
+3. O que é a tabela de roteamento e qual seu papel no roteador?
+
+4. O que é a rota padrão (default gateway) e por que ela é necessária?
+
+5. Por que dispositivos como computadores também possuem tabela de roteamento?
 
