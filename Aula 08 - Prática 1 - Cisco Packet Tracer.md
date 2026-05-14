@@ -55,8 +55,13 @@ tema: Prática com Cisco Packet Tracer
 - Coloque dois computadores na área de trabalho.
 - Conecte-os através de um cabo crossover.
 - Configure os IPs dos computadores.
+
+<img width="480" height="105" alt="image" src="https://github.com/user-attachments/assets/d8047aa6-aeba-44fe-9988-4740243e362b" />
+
 - Testes os pacotes trafegando pela rede.
 - Execute o comando ping entre os computadores.
+- Execute o comando ipconfig em um dos computadores.
+- Agora teste os pacotes trafegando colocando dois pacotes para serem enviados ao mesmo tempo.
 
 ---
 
@@ -64,6 +69,8 @@ tema: Prática com Cisco Packet Tracer
 
 - O ping funcionou? O que isso significa?
 - Os dois computadores estão na mesma rede? Como você sabe?
+- Qual resultado da execução do comando ipconfig?
+- O que aconteceu quando enviamos dois pacotes ao mesmo tempo? Qual explicação disso?
 
 ---
 
@@ -76,6 +83,8 @@ tema: Prática com Cisco Packet Tracer
   - PC0 - 192.168.0.2
   - PC1 - 192.168.0.3
   - PC2 - 192.168.0.4
+
+<img width="407" height="281" alt="image" src="https://github.com/user-attachments/assets/c6642126-3540-44a4-8015-bce33673b886" />
 
 - Testes e observe os pacotes trafegando pela rede.
 
@@ -98,6 +107,8 @@ tema: Prática com Cisco Packet Tracer
   - PC0 - 192.168.0.2
   - PC1 - 192.168.0.3
   - PC2 - 192.168.0.4
+ 
+<img width="407" height="281" alt="Captura de tela de 2026-05-13 22-51-07" src="https://github.com/user-attachments/assets/67a52c59-e409-42fb-a770-cf0a557b1c33" />
 
 - Testes e observe os pacotes trafegando pela rede.
 
