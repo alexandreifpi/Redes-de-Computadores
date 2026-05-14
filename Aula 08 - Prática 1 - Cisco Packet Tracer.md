@@ -84,7 +84,7 @@ tema: Prática com Cisco Packet Tracer
   - PC1 - 192.168.0.3
   - PC2 - 192.168.0.4
 
-<img width="407" height="281" alt="image" src="https://github.com/user-attachments/assets/c6642126-3540-44a4-8015-bce33673b886" />
+<img width="407" height="281" alt="image" src="[https://github.com/user-attachments/assets/c6642126-3540-44a4-8015-bce33673b886](https://raw.githubusercontent.com/alexandreifpi/Redes-de-Computadores/refs/heads/main/Captura%20de%20tela%20de%202026-05-13%2022-46-18.png)" />
 
 - Testes e observe os pacotes trafegando pela rede.
 
@@ -108,7 +108,7 @@ tema: Prática com Cisco Packet Tracer
   - PC1 - 192.168.0.3
   - PC2 - 192.168.0.4
  
-<img width="407" height="281" alt="Captura de tela de 2026-05-13 22-51-07" src="https://github.com/user-attachments/assets/67a52c59-e409-42fb-a770-cf0a557b1c33" />
+<img width="407" height="281" alt="Captura de tela de 2026-05-13 22-51-07" src="https://raw.githubusercontent.com/alexandreifpi/Redes-de-Computadores/refs/heads/main/Captura%20de%20tela%20de%202026-05-13%2022-51-07.png" />
 
 - Testes e observe os pacotes trafegando pela rede.
 
