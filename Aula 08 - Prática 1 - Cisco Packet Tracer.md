@@ -56,7 +56,7 @@ tema: Prática com Cisco Packet Tracer
 - Conecte-os através de um cabo crossover.
 - Configure os IPs dos computadores.
 
-<img width="480" height="105" alt="image" src="Captura de tela de 2026-05-13 22-39-50.png" />
+<img width="480" height="105" alt="image" src="[Captura de tela de 2026-05-13 22-39-50.png](https://raw.githubusercontent.com/alexandreifpi/Redes-de-Computadores/refs/heads/main/Captura%20de%20tela%20de%202026-05-13%2022-39-50.png)" />
 
 - Testes os pacotes trafegando pela rede.
 - Execute o comando ping entre os computadores.
