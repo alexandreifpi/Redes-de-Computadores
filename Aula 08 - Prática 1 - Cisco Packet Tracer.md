@@ -56,12 +56,11 @@ tema: Prática com Cisco Packet Tracer
 - Conecte-os através de um cabo crossover.
 - Configure os IPs dos computadores.
 
-<img width="480" height="105" alt="image" src="[Captura de tela de 2026-05-13 22-39-50.png](https://raw.githubusercontent.com/alexandreifpi/Redes-de-Computadores/refs/heads/main/Captura%20de%20tela%20de%202026-05-13%2022-39-50.png)" />
+<img width="480" height="105" alt="image" src="https://raw.githubusercontent.com/alexandreifpi/Redes-de-Computadores/refs/heads/main/Captura%20de%20tela%20de%202026-05-13%2022-39-50.png" />
 
 - Testes os pacotes trafegando pela rede.
 - Execute o comando ping entre os computadores.
 - Execute o comando ipconfig em um dos computadores.
-- Agora teste os pacotes trafegando colocando dois pacotes para serem enviados ao mesmo tempo.
 
 ---
 
@@ -70,7 +69,6 @@ tema: Prática com Cisco Packet Tracer
 - O ping funcionou? O que isso significa?
 - Os dois computadores estão na mesma rede? Como você sabe?
 - Qual resultado da execução do comando ipconfig?
-- O que aconteceu quando enviamos dois pacotes ao mesmo tempo? Qual explicação disso?
 
 ---
 
@@ -84,9 +82,10 @@ tema: Prática com Cisco Packet Tracer
   - PC1 - 192.168.0.3
   - PC2 - 192.168.0.4
 
-<img width="407" height="281" alt="image" src="[https://github.com/user-attachments/assets/c6642126-3540-44a4-8015-bce33673b886](https://raw.githubusercontent.com/alexandreifpi/Redes-de-Computadores/refs/heads/main/Captura%20de%20tela%20de%202026-05-13%2022-46-18.png)" />
+<img width="407" height="281" alt="image" src="https://raw.githubusercontent.com/alexandreifpi/Redes-de-Computadores/refs/heads/main/Captura%20de%20tela%20de%202026-05-13%2022-46-18.png" />
 
 - Testes e observe os pacotes trafegando pela rede.
+- Agora teste os pacotes trafegando colocando dois pacotes para serem enviados ao mesmo tempo.
 
 ---
 
@@ -95,6 +94,7 @@ tema: Prática com Cisco Packet Tracer
 - Para onde os dados estão sendo enviados?
 - Quais dispositivos recebem o pacote?
 - Porque isso acontece?
+- O que aconteceu quando enviamos dois pacotes ao mesmo tempo? Qual explicação disso?
 
 ---
 
